@@ -50,11 +50,11 @@ var gradeJson = function(html) {
                 console.log(outJson);
 };
 
-var gradeJson = function(html) {
-		var checkJson = checkHtml(html, cmdr.checks);
-        var outJson = JSON.stringify(checkJson, null, 4);
-                        console.log(outJson);
-}
+//var gradeJson = function(html) {
+//		var checkJson = checkHtml(html, cmdr.checks);
+  //      var outJson = JSON.stringify(checkJson, null, 4);
+//                        console.log(outJson);
+//}
 
 //clones a function
 var clone = function(fn) {
